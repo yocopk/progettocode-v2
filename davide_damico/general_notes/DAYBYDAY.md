@@ -10,7 +10,7 @@ Creazione del Dictionary.md , ripasso di come fare add,commit e push nel termina
 Ripasso del giorno 11.04 , quindi ripasso dei comandi da usare nel terminale e come creare un branch e fare la pull request e il merge tra il nuovo branch e il master
 
 - **17.04**
-Nuovo ragazzo (Marco), solito daily dove spieghiamo cosa abbiamo fatto , le attività bloccanti etc.
+Nuovo ragazzo (Marco), solito daily dove spieghiamo cosa abbiamo fatto , le attività bloccanti etc. Sistemazione dei file , rinominazioni cartelle e file 
 
 - **19.04**
 
