@@ -2,3 +2,4 @@
 - Ricordarsi di cambiare il branch da main a valeriocolibro SEMPRE;
 - Minuscolo per html e MAIUSCOLO PER GIT
 - Per cambiare percorso cartella, cd percorsocartella
+- Per i tag html, usare il tag 'code'
