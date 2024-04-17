@@ -10,8 +10,13 @@ Creazione del Dictionary.md , ripasso di come fare add,commit e push nel termina
 Ripasso del giorno 11.04 , quindi ripasso dei comandi da usare nel terminale e come creare un branch e fare la pull request e il merge tra il nuovo branch e il master
 
 - **17.04**
+Nuovo ragazzo (Marco), solito daily dove spieghiamo cosa abbiamo fatto , le attività bloccanti etc. Sistemazione dei file , rinominazioni cartelle e file 
+
+- **19.04**
 
 # Descrizione day by day , di quello che facciamo durante le lezioni in presenza
 
 - **16.04**
-Quiz con metimeter (1 posto , lets go) , spiegazione generica di riccardo su HTML , fare in markdown una spiegazione di HTML 
+Quiz con metimeter (1 posto , lets go) , spiegazione generica di riccardo su HTML , fare in markdown una spiegazione di HTML , creazione della spiegazione di HTML in HTML , creazione di un sito web in locale mettendo in collegamento le varie pagine sheet cioè git , github e markdown
+
+- **18.04**
