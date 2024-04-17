@@ -14,9 +14,9 @@ In HTML, ci sono molti elementi, o "tag", che vengono utilizzati per definire la
 - a: Crea un link ipertestuale.
 - img: Inserisce un'immagine nella pagina.
 - ul, ol, li: Definiscono elenchi non ordinati (puntati) e ordinati (numerati) e i relativi elementi di lista.
-- div, span: Sono elementi generici utilizzati per raggruppare altri elementi e applicare stili o comportamenti.
+div, span: Sono elementi generici utilizzati per raggruppare altri elementi e applicare stili o comportamenti.
 - table, tr, td, th: Definiscono tabelle e le loro righe e colonne.
 - form, input, button, select, textarea: Definiscono moduli per l'invio di dati utente. 
 - header, footer, na, section, article: Elementi semantici introdotti in HTML5 per definire parti specifiche della pagina.
   
-Questi sono solo alcuni dei tag più comuni in HTML. Ce ne sono molti altri, e ognuno ha un ruolo specifico nella struttura e nel contenuto di una pagina web
+Questi sono solo alcuni dei tag più comuni in HTML. Ce ne sono molti altri, e ognuno ha un ruolo specifico nella struttura e nel contenuto di una pagina web.
