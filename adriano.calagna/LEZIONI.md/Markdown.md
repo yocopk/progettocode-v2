@@ -31,4 +31,4 @@ Le citazioni si creano con il simbolo >:
 ## Codice
 Per il codice inline, usa i backtick: `codice`. Per blocchi di codice, usa tre backtick o indentazione con quattro spazi.
 creare tabelle usando (`-`) digitando backtick + - + secondo backtick per le linee orizzontali.
-(`|`) digitando backtick + | + secondo backtick.
+(`|`) digitando backtick + | + secondo backtick. 
