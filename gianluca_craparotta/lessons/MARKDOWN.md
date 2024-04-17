@@ -2,19 +2,12 @@ Markdown è un linguaggio di formattazione leggero utilizzato per scrivere docum
 
 Headers (Intestazioni): Per creare titoli e sottotitoli utilizzando il carattere #.
 
-Formatting Text (Formattazione del testo): È possibile utilizzare caratteri come * o _ per enfatizzare il testo (*corsivo*, **grassetto**).
+Formatting Text (Formattazione del testo): È possibile utilizzare caratteri come * o \_ per enfatizzare il testo (*corsivo\*, **grassetto**).
 
-Lists (Elenco): È possibile creare elenchi puntati o numerati utilizzando *, - per elenchi puntati e numeri seguiti da un punto per elenchi numerati.
+Lists (Elenco): È possibile creare elenchi puntati o numerati utilizzando \*, - per elenchi puntati e numeri seguiti da un punto per elenchi numerati.
 
 Links (Collegamenti): Per creare collegamenti ipertestuali utilizzando [testo del collegamento](URL).
 
 Images (Immagini): Per inserire immagini utilizzando ![testo alternativo](URL dell'immagine).
 
 Code Blocks (Blocchi di codice): Per formattare blocchi di codice utilizzando tre backtick (`) prima e dopo il codice o utilizzando quattro spazi prima di ogni riga di codice.
-
-
-
-
-12git
-
-Tables (Tabelle): Per creare tabelle utilizzando la sintassi | Colonna 1 | Colonna 2 | seguita da una riga separata con | --- | --- | per definire la struttura della tabella.
