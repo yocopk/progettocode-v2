@@ -1,7 +1,3 @@
-Ecco alcuni esempi di "cheat sheet" per Git che mostrano i comandi più comuni:
-
----
-
 ### Comandi di base:
 
 #### Inizializzazione di un repository:
@@ -87,5 +83,3 @@ git clone <url_repo_remoto>
 ```
 
 ---
-
-Questi sono solo alcuni esempi di comandi Git che potresti trovare utili. Puoi personalizzare ulteriormente il tuo "cheat sheet" aggiungendo o rimuovendo comandi in base alle tue esigenze specifiche.

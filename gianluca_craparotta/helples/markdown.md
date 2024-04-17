@@ -1,7 +1,3 @@
-Ecco alcuni esempi di "cheat sheet" per Markdown che mostrano la sintassi comune utilizzata per formattare il testo:
-
----
-
 ### Intestazioni:
 
 ```markdown
