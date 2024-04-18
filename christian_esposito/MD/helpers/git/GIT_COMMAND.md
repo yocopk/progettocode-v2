@@ -95,7 +95,9 @@ Puoi eliminare un ramo dopo averlo integrato con successo o se non è più neces
  ## verifica differenze in locale o con il remote
 
 + git diff nomeFile 
-   + visualizzi le differenze tra i file nei vari commit 
+   + Mostra le differenze tra le modifiche non ancora registrate e la versione più recente nel repository.
+
+
 
 + git fetch origin
   + Recupera le modifiche dal repository remoto senza integrarle automaticamente nella tua branch locale corrente. In pratica, scarica le informazioni aggiornate delle branch remote sul tuo computer locale.
