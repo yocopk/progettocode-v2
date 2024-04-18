@@ -21,13 +21,18 @@
 ## TUTTI I COMANDI
 
 - **Intestazioni**: `h1` per il titolo principale, `h2>` per sottotitoli, ..., `h6` per sottotitoli di livello inferiore.
+
 - **Paragrafi**: `p` per blocchi di testo.
+
 - **Liste**:
 - `<ul>` per liste non ordinate.
 - `<ol>` per liste ordinate.
 - `<li>` per gli elementi delle liste.
+
 - **Link**: `<a>` per collegamenti ipertestuali.
+
 - **Immagini**: `<img>` per l'inclusione di immagini.
+
 - **Tabelle**:
   `<table>` per la definizione di una tabella.
   `<tr>` per le righe di una tabella.
@@ -43,12 +48,13 @@
   `<video>` per l'inclusione di file video.
 
 - **Commenti**: `<!-- commento -->` per inserire commenti nel codice HTML.
+
 - **Elementi di testo**:
   `<b>` per testo in grassetto.
   `<i>` per testo in corsivo.
   `<u>` per testo sottolineato.
-  `<em>` per enfasi.
-  `<strong>` per enfasi forte.
+  `<em>` per corsivo.
+  `<strong>` per grassetto forte.
 
 - **Divisioni**: `<div>` per creare divisioni o sezioni nel documento.
 - **Navigazione**: `<nav>` per definire una sezione di navigazione.
