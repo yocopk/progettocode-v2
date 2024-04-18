@@ -1,6 +1,6 @@
 # Tag
 
-< !DOCTYPE html>: Questa dichiarazione definisce che il documento è HTML5.
+**< !DOCTYPE html>**: Questa dichiarazione definisce che il documento è HTML5.
 
 **< html>**: L'elemento radice di una pagina HTML.
 
@@ -10,7 +10,7 @@
 
 **< body>**: Contiene il contenuto effettivo della pagina, visibile agli utenti.
 
-**< h1>**: Un'intestazione di primo livello. HTML prevede intestazioni da <h1> a <h6>.
+**< h1>**: Un'intestazione di primo livello. HTML prevede intestazioni da < h1> a < h6>.
 
 **< p>**: Definisce un paragrafo.
 
