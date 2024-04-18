@@ -46,7 +46,6 @@
 + git blame [ file ]
   +  in Git ti consente di esaminare la cronologia dei commit per una riga o un file specifico e scoprire quali commit hanno introdotto o modificato ciascuna riga di codice.
 
-
 ## branch
 
 + git branch -M main  
@@ -54,6 +53,9 @@
 
 + git checkout -b nomebranch 
   + per cambiare e creare una nuova BRANCH
+
+### Cancellazione di un ramo:
+Puoi eliminare un ramo dopo averlo integrato con successo o se non è più necessario, utilizzando il comando git branch -d [ nome-ramo ].
 
 ## collegamento con i remote
 
@@ -103,6 +105,9 @@
 
 + git merge origin < branch_name > 
   + Integra le modifiche scaricate dalla branch remota specificata con la tua branch locale corrente. Simile al comando pull, anche questo passaggio potrebbe richiedere la risoluzione manuale di eventuali conflitti.
+
+### Merge di rami:
+Dopo aver sviluppato una funzionalità in un ramo separato, puoi integrare le modifiche nel ramo principale utilizzando il comando git merge [ nome-ramo ].
 
 
 ## archiviare dei commit
