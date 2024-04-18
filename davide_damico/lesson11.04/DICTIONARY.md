@@ -7,3 +7,5 @@ Git è un sistema di controllo di versione distribuito che consente a voi e ai v
 Il linguaggio Markdown è un linguaggio di markup con l'obiettivo di permettere agli utenti di scrivere usando un formato di testo semplice che poi può essere convertito in HTML
 
 - ## VIM (da cercare , termine che ha spiegato sul terminale)
+
+- ## LightHouse (da cercare)

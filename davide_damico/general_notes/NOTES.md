@@ -48,5 +48,3 @@ git branch -r (serve a mostrare tutti i branch remoti)
 git push origin --delete nome.branch (serve a cancellare il branch dal repository remoto)
 
 git reset --hard origin/master (per cancellare ciò che ho in locale su vsc e prendere ciò che ho in remoto sul repo)
-
-[Lighthouse , programma usato per ''votare'' un sito da diversi lati]
