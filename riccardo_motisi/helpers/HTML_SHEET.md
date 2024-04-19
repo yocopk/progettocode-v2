@@ -1,8 +1,10 @@
-# HTML TAG
+# Html Tags
+
 ## tag comuni:
+
 `<html>`: Definisce il contenuto come un documento HTML.
 
-`<head>`: Contiene metadati come il titolo della pagina, collegamenti a fogli di stile e 
+`<head>`: Contiene metadati come il titolo della pagina, collegamenti a fogli di stile e
 script.
 
 `<title>`: Specifica il titolo della pagina, visualizzato nella barra del titolo del browser o nella scheda.
@@ -33,15 +35,16 @@ script.
 
 `<td>`: Cella di una tabella.
 
-`<form>`: Definisce un modulo per 
+`<form>`: Definisce un modulo per
 l'input dell'utente.
 
-`<input>`: Crea un campo di input 
+`<input>`: Crea un campo di input
 all'interno di un modulo.
 
 `<button>`: Crea un pulsante.
 
 ## Tag Meno Comuni:
+
 `<article>`: Definisce un contenuto indipendente e auto-contenuto.
 
 `<aside>`: Definisce il contenuto correlato al contenuto circostante, ma che può essere considerato separatamente.
