@@ -1,9 +1,9 @@
-<h2 align= "center"> <strong> HTML </h2> </strong>
+## HTML 
 
-<p center> "HTML" sta per HyperText Markup Language, è il linguaggio di markup utilizzato per la creazione e la strutturazione di contenuti web. 
+"HTML" sta per HyperText Markup Language, è il linguaggio di markup utilizzato per la creazione e la strutturazione di contenuti web. 
 HTML è il fondamento di qualsiasi pagina web. Definisce la struttura di base del contenuto web, ed è supportato da tutti i principali browser.
 
-L'utilizzo corretto degli elementi semantici di HTML permette di migliorare l'accessibilità delle pagine web</p>
+L'utilizzo corretto degli elementi semantici di HTML permette di migliorare l'accessibilità delle pagine web
 
 ### Origine e storia di HTML
 
