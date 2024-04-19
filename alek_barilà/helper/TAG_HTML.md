@@ -1,4 +1,4 @@
-1) <em>**Tag per la struttura della pagina:**
+1. <em>**Tag per la struttura della pagina:**
 
 - < html>: Definisce l'inizio e la fine di un documento HTML.
 - < head>: Contiene informazioni sul documento come il titolo, i metadati e i collegamenti ai fogli di stile.
@@ -6,7 +6,7 @@
 - < body>: Contiene il contenuto visibile della pagina web.
 <hr>
 
-2) <em>**Tag per la formattazione del testo:**
+2. <em>**Tag per la formattazione del testo:**
 
 - < p>: Definisce un paragrafo di testo.
 - < h1>, < h2>, ..., < h6>: Intestazioni di diversi livelli.
@@ -16,7 +16,7 @@
 - < hr>: Crea una riga orizzontale.
 <hr>
 
-3) <em>**Tag per i link e le immagini:**
+3. <em>**Tag per i link e le immagini:**
 
 - < a href="url">testo del link</a>: Crea un link ipertestuale.
 - < img src="percorso_dell_immagine" alt="testo_alternativo">: Inserisce un'immagine.
