@@ -15,4 +15,22 @@ Git funziona creando "istantanee" (snapshot) del tuo progetto a intervalli regol
 
 Pensa a Git come a una serie di scatole impilate una sopra l'altra. Ogni scatola rappresenta un commit, e contiene una copia esatta di tutti i tuoi file in quel momento. Puoi sempre tornare a una scatola precedente (commit) per vedere come era il tuo progetto in quel preciso istante.
 
-__Imparare Git richiede un po' di pratica, ma è uno strumento prezioso per qualsiasi sviluppatore. Esistono molte risorse online che possono aiutarti a imparare di più su Git, come tutorial e documentazione ufficiale.__
+## Hash (Commit Hash):
+
+### Cos'è un hash di commit?
+Ogni commit in Git è identificato da un hash SHA-1, una stringa di 40 caratteri esadecimali univoca che rappresenta uno stato specifico del tuo progetto.
+
+### Generazione dell'hash:
+L'hash viene generato prendendo in considerazione tutti i dettagli del commit, inclusi i cambiamenti apportati, l'autore, la data e il messaggio di commit.
+
+### Riferimento al commit:
+Gli hash sono utilizzati per riferirsi a commit specifici, consentendo di identificare univocamente una versione specifica del tuo progetto.
+
+### Commit univoci:
+Anche una singola modifica può generare un nuovo hash di commit univoco.
+
+### Visualizzazione degli hash:
+Puoi visualizzare la cronologia dei commit con i rispettivi hash utilizzando il comando git log.
+
+### Utilizzo degli hash in comandi Git:
+Puoi utilizzare gli hash per eseguire operazioni specifiche su commit particolari, ad esempio per spostarti su un commit specifico con git checkout [ hash ].
