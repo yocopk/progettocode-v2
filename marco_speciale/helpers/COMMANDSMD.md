@@ -11,11 +11,11 @@
 **Testo in Grassetto**
 __Anche questo è in Grassetto__
 
-# Testo in corsivo 
+## Testo in corsivo 
 
 *Testo in Corsivo*
 
-# Elenco e sotto elenco
+## Elenco e sotto elenco
 
 * Elemento 1
 * Elemento 2
@@ -25,21 +25,22 @@ __Anche questo è in Grassetto__
 1. Elemento 1
 2. Elemento 2
 
-# Link 
+## Link 
 
 [link wikipedia](https://it.wikipedia.org/wiki/Pagina_principale)
 
-# Immagini 
+## Immagini 
 
 ![space](https://www.polytechnique-insights.com/wp-content/uploads/2022/11/adobestock_402438380-scaled.jpeg)
 
-# Codice inline
+## Codice inline
 
 <!-- ```python
 def hello():
     print("Ciao, mondo!") -->
 
-# Linea Orizzontale
+## Linea Orizzontale
+
 ---
 ***
 ---
