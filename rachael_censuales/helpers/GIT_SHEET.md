@@ -1,37 +1,45 @@
- ## Comandi GIT 
- **_Comandi iniziali_**
+## Comandi GIT
 
-- git config --global user.name "tuo nome" : Imposta il nome utente
-- git config --global user.email "tua email" : Imposta indirizzo email utente
-- git init: Inizializzazione nuova Repository
-- git clone url_repository: Clona Repository già esistente nella directory locale
+### Comandi iniziali
 
+**git init**: Inizializza un nuovo repository Git nella directory corrente.
+**git clone**: [URL] Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
+**git remote add origin**: [URL] // Collega il repository remoto a quello locale.
+**git remote -v**: Mostra i repository remoti collegati e le rispettive URL.
+**git add [file]**: Aggiunge un file al tuo "staging area", preparandolo per essere committato.
+**git commit -m [messaggio]**: Committa le modifiche presenti nel tuo staging area con un messaggio di commit descrittivo.
+**git status**: Mostra lo stato attuale del tuo repository Git, inclusi i file modificati, i file nel staging area e altro.
+**git diff**: Mostra le differenze tra il working directory e l'area di staging.
+**git reset [file]**: Rimuove un file dallo staging area, mantenendo le modifiche nel working directory.
+**git rm [file]**: Rimuove un file dal repository Git.
 
-- git add nome_file: aggiunge un file all'area di staging.
-- git add . : Aggiunge tutti i file modificati all'area di staging.
+### Gestione dei rami
 
+**git branch**: Visualizza l'elenco dei rami nel repository.
+**git checkout [branch]**: Passa a un altro ramo del repository.
+**git checkout -b [nome_branch]**: Crea un nuovo ramo e passa ad esso in un'unica operazione.
+**git merge [branch]**: Unisce un altro ramo al ramo attuale.
+**git branch -d [branch]**: Elimina un ramo locale dopo averlo unito al ramo principale.
+**git branch -m [nuovo_nome]**: Rinomina il ramo attuale.
 
-- git commit -m "Messaggio" : Esegue un commit con un messaggio descrittivo.
+### Gestione dei tag e della cronologia dei commit
 
-- git remote: Mostra elenco dei repository remoti collegati
-- git push -u (nome remoto) (nome ramo): Carica un ramo su un repository
-- git pull (nome remoto) (nome ramo): Scarica e fonde un ramo da un repository remoto
+**git tag [tagname]**: Crea un nuovo tag per un commit specifico.
+**git log**: Controlli la lista dei commit in ordine cronologico.
 
+### Operazioni avanzate
 
-- git status: Mostra lo stato del repository
-- git log: Cronologia dei commit
+**git revert [commit]**: Annulla un commit specifico, creando un nuovo commit che annulla le modifiche introdotte da quello specifico.
+**git cherry-pick [commit]**: Applica le modifiche introdotte da un commit specifico su un altro ramo.
+**git rebase [branch]**: Riapplica i commit del ramo corrente sopra il ramo specificato, spesso utilizzato per mantenere una storia dei commit più pulita.
+**git bisect**: Utilizzato per il debugging, aiuta a identificare il commit che ha introdotto un bug.
 
-**_Branch_**
+### Operazioni di sincronizzazione con il repository remoto
 
-- git branch: Elenco dei branch presenti
-- git branch (nome branch) : Crea un nuovo branch
-- git checkout (nome branch): Cambia/sposta branch
-- git checkout -b (nome branch): Crea un nuovo ramo (e passa automaticamente)
-- git branch -m (nuovo nome) : Cambiare nome a un branch
-- git branch -d (nome branch) : Eliminare il branch in locale
+**git push origin main**: Carica i tuoi commit locali sul repository remoto.
+**git pull origin main**: Aggiorna il tuo repository locale con le modifiche dal repository remoto.
+**git fetch**: Recupera i dati dal repository remoto senza unire i cambiamenti nel tuo repository locale.
 
-- git push origin --delete (nome branch) : Eliminare il branch in remoto
-- git branch -d (nome branch); git push origin --delete (nome branch) : eliminare i branch sia in locale che in remoto
+### Altri comandi utili
 
-- git merge (nome branch): Esegue il merge (unione) di un branch nel branch corrente.
-
+**git stash**: Nasconde le modifiche locali temporaneamente, permettendo di lavorare su un'altra parte del codice.
