@@ -6,7 +6,7 @@ const addBtn = document.getElementById('add-btn');
 const listItems = document.getElementById('list-items');
 const randomBtn = document.getElementById('randomize-btn');
 const groupList = document.getElementById('group-list');
-const olElement = document.querySelector('ol');
+// const olElement = document.querySelector('ol');
 const students = [];
 
 addBtn.addEventListener('click', function () {
@@ -33,12 +33,10 @@ userInput.addEventListener('keyup', function (event) {
 
 userInput.addEventListener('keyup', function () {
   const userValue = userInput.value;
-  let isDuplicate = false;
   addBtn.disabled = false;
 
   for (let i = 0; i < students.length; i++) {
     if (students[i].toLowerCase() === userValue.toLowerCase()) {
-      isDuplicate = true;
       addBtn.disabled = true;
       break;
     }
