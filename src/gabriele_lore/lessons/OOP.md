@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # OOP
 
 La programmazione orientata agli oggetti, è un paradigma di programmazione che permette di definire oggetti software in grado di interagire gli uni con gli altri attraverso lo scambio di messaggi. Per "scambio di messaggi" s'intende la capacità degli oggetti di chiamare i metodi pubblici di altri oggetti, per esempio passandogli dati da elaborare e ricevendo il risultato della loro elaborazione.
@@ -29,7 +31,7 @@ class Hero{
 }
 ```
 
-## Ereditarietà 
+## Ereditarietà
 
 ```
 class veicolo {
@@ -45,7 +47,7 @@ class automobile extends veicolo {
 
 ## Polimorfismo
 
-Poli significa molti e morfismo significa trasformare una forma in un'altra. Polimorfismo significa che la stessa funzione con firme diverse viene chiamata più volte. 
+Poli significa molti e morfismo significa trasformare una forma in un'altra. Polimorfismo significa che la stessa funzione con firme diverse viene chiamata più volte.
 
 Caratteristiche del polimorfismo:
 

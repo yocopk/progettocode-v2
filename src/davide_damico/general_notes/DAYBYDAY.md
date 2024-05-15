@@ -33,7 +33,6 @@
 
   Solito daily , introduzione e installazione di node.js. Spiegazione di come usare node nel terminale tramite un file js
 
-
 # Descrizione day by day , di quello che facciamo durante le lezioni in presenza
 
 - **16.04**

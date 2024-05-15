@@ -1,14 +1,9 @@
+/** @format */
+
 // DATI
-const students = [
-  "Raffaele",
-  "Gianluca",
-  "Sameuele",
-  "Rachele",
-  "Sofia",
-  "Noemi",
-];
+const students = ['Raffaele', 'Gianluca', 'Sameuele', 'Rachele', 'Sofia', 'Noemi'];
 let groupBy = 3;
-const studentsGrouped = [["Raffaele", "Samuele"][("Sofia", "Noemi")]];
+const studentsGrouped = [['Raffaele', 'Samuele'][('Sofia', 'Noemi')]];
 
 // ACTIONS
 function addStudentToList(studentName) {
@@ -32,23 +27,17 @@ function selectGroupBy(selectedGroupBy) {
 }
 
 function onClickAddStudents() {
-  const studentName = document.getElementById("studentname").value;
+  const studentName = document.getElementById('studentname').value;
   addStudentToList(studentName);
 }
 function onClickGenerateGroup() {
-  const groupBy = document.getElementById("groupBy").value;
+  const groupBy = document.getElementById('groupBy').value;
   selectGroupBy(groupBy);
 }
 // CONNECT TO UI
 
-document
-  .getElementById("addstudent")
-  .addEventListener("click", onClickAddStudents);
+document.getElementById('addstudent').addEventListener('click', onClickAddStudents);
 
-document
-  .getElementById("generateGroup")
-  .addEventListener("click", generateGroup);
+document.getElementById('generateGroup').addEventListener('click', generateGroup);
 
-document
-  .getElementById("groupBy")
-  .addEventListener("change", onClickGenerateGroup);
+document.getElementById('groupBy').addEventListener('change', onClickGenerateGroup);

@@ -1,11 +1,10 @@
+/** @format */
+
 class AppTodoList {
   todos = [];
 
   addTodo(todoName) {
-    this.todos = [
-      ...this.todos,
-      { description: todoName, status: false, id: Math.random() },
-    ];
+    this.todos = [...this.todos, { description: todoName, status: false, id: Math.random() }];
   }
 
   removeTodo(idTodo) {
