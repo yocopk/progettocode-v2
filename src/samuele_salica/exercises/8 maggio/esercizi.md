@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # ESERCIZIO 1
 
 const numbers = [1 , 2 , 3 , 4 , 5]
