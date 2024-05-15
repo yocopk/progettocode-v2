@@ -67,3 +67,4 @@ function checkWin() {
 }
 
 printBoard();
+makeMove(0);
