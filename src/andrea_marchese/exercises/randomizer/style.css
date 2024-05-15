@@ -106,8 +106,7 @@ label {
 
 .style-list {
   width: 200px;
-  max-width: 200px;
-  height: 300px;
+  height: fit-content;
   margin: 0;
   display: flex;
   justify-content: start;
